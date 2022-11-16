@@ -3,16 +3,15 @@
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
-### Setup
+# Setup
 
 ## Usefull extensions
 
-# Vue VSCode Snippets
+### Vue VSCode Snippets
 
 Name: Vue VSCode Snippets
 Description: Snippets that will supercharge your Vue workflow
 Version: 3.1.1
-
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets
 
 Make sure to install the dependencies:
