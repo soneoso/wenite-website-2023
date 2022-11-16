@@ -15,6 +15,8 @@ Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ### Vetur
 
+
+
 Name: Vetur
 Description: Vue tooling for VS Code
 Version: 0.36.1
