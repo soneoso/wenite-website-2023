@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* @apply bg-gray-50; */
+}
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+}
+
+@layer components {
+
+    /* Navbar  */
+
+    .navbtn {
+        @apply text-gray-700 text-xl hover:text-blue-500 dark:text-blue-600 dark:hover:text-blue-400 lg:mx-6;
+    }
+
+    .nav-btn-contact {
+        @apply mt-4 block transform rounded-full border px-5 py-2 text-center text-xl capitalize text-gray-700 transition-colors duration-300 dark:text-blue-600 hover:bg-blue-400 focus:bg-blue-400 focus:outline-none dark:hover:text-white lg:mt-0 lg:w-auto lg:h-auto;
+    }
+
+    .nav-btn-login {
+        @apply mt-4 block transform rounded-full border px-5 py-2 text-center text-xl capitalize text-gray-700 transition-colors duration-300 dark:text-blue-600 hover:bg-blue-400 focus:bg-blue-400 focus:outline-none dark:hover:text-white lg:mt-0 lg:w-auto lg:h-auto;
+    }
+
+    /* Header */
+
+    .header-btn-book {
+        @apply m-1 transform rounded-full bg-blue-500 px-5 py-2 text-xl mt-8 text-white transition-colors duration-300 hover:bg-blue-400 focus:bg-blue-400 focus:outline-none ;
+    }
+}
