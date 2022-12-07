@@ -1,8 +1,8 @@
 <template>
             <div class="flex justify-center items-center">
-            <img src="~/assets/images/header-rightside.png" alt="">
+            <!-- <img src="~/assets/images/header-rightside.png" alt=""> -->
             </div>
-    <div class="max-w-screen-2xl rounded-3xl mx-auto bg-slate-50 shadow-2xl p-32 text-gray-600">
+    <div class="max-w-screen-2xl rounded-3xl mx-auto bg-white shadow-2xl p-32 text-gray-600">
             <div class="text-cente text-center max-w-xl mx-auto py-16">
                 <h1 class="text-6xl font-bold py-8 max-w-xl">Powered by Human Rescourses, People, Data</h1>
                 <p class="text-gray-500 dark:text-gray-600 md:text-xl">A data-first platform that centralizes all wellbeing content, services and insights</p>
