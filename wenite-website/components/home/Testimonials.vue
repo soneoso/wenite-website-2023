@@ -1,6 +1,6 @@
 <template>
 <div class="min-w-screen min-h-screen flex items-center justify-center py-5">
-    <div class="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800">
+    <div class="w-full bg-white  border-gray-200 px-5 py-16 md:py-24 text-gray-800">
         <div class="w-full max-w-6xl mx-auto">
             <div class="text-center max-w-xl mx-auto">
                 <h1 class="text-6xl md:text-7xl font-bold mb-5 text-gray-600">What people <br>are saying.</h1>
@@ -78,7 +78,7 @@
                     </div>
                     </div>
                 </div>
-                 <div class="px-3 md:w-1/3">
+                <div class="px-3 md:w-1/3">
                     <div class="w-full mx-auto rounded-full bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                     <div class="p-8">
                         <div class="w-full flex mb-4 items-center">
@@ -117,9 +117,7 @@
 </template>
 
 <script>
-    export default {
-        
-    }
+
 </script>
 
 <style scoped>
