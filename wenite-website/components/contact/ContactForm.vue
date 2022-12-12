@@ -72,7 +72,7 @@ const selected = ref(items[3])
 <template>
 
 
-    <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div id="sales" class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-lg text-center">
             <h1 class="text-2xl  sm:text-3xl">Fill out this form, we‘ll quickly get back to you.</h1>
         </div>
@@ -120,68 +120,59 @@ const selected = ref(items[3])
 
 
         <form action="" class="mx-auto mt-8 mb-0 max-w-3xl space-y-4">
-            <div class="flex">
+            <div class="grid grid-cols-2 gap-4">
                 <div>
                     <label for="company" class="sr-only">Company</label>
-                    <div class="relative">
-                        <input type="text" class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
-                            placeholder="Company" />
-                    </div>
+                    <input type="text" class="w-full rounded-lg border-2 p-4 pr-12 text-sm shadow-sm"
+                        placeholder="Company" />
                 </div>
-                <div class="mx-auto">
-                    <label for="email" class="sr-only">Email</label>
-                    <div class="relative">
-                        <input type="email" class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
-                            placeholder="Email" />
-                    </div>
-                </div>
-            </div>
 
-            <div class="flex ">
+                <label for="email" class="sr-only">Email</label>
+                <div class="relative">
+                    <input type="email" class="w-full rounded-lg border-gray-200 border-2 p-4 pr-12 text-sm shadow-sm"
+                        placeholder="Email" />
+                </div>
+
                 <div>
                     <label for="first-name" class="sr-only">First Name</label>
                     <div class="relative">
-                        <input type="text" class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
+                        <input type="text"
+                            class="w-full rounded-lg border-gray-200 border-2 p-4 pr-12 text-sm shadow-sm"
                             placeholder="First Name" />
                     </div>
                 </div>
-                <div class="mx-auto">
-                    <label for="last-name" class="sr-only">Last Name</label>
-                    <div class="relative">
-                        <input type="text" class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
-                            placeholder="Last Name" />
-                    </div>
+                <label for="last-name" class="sr-only">Last Name</label>
+                <div class="relative">
+                    <input type="text" class="w-full rounded-lg border-gray-200 border-2 p-4 pr-12 text-sm shadow-sm"
+                        placeholder="Last Name" />
                 </div>
-            </div>
 
-            <div class="flex">
-                <div >
+                <div>
                     <label for="job-title" class="sr-only">Job Title</label>
                     <div class="relative">
-                        <input type="text" class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
+                        <input type="text"
+                            class="w-full rounded-lg border-gray-200 border-2 p-4 pr-12 text-sm shadow-sm"
                             placeholder="Job Title" />
                         <span class="absolute inset-y-0 right-4 inline-flex items-center">
                         </span>
                     </div>
                 </div>
-                <div class="mx-auto">
-                    <label for="country-region" class="sr-only">Country</label>
-                    <div class="relative">
-                        <input type="text" class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm"
-                            placeholder="Country/Region" />
-                    </div>
+                <label for="country-region" class="sr-only">Country</label>
+                <div class="relative">
+                    <input type="text" class="w-full rounded-lg border-gray-200 border-2 p-4 pr-12 text-sm shadow-sm"
+                        placeholder="Country/Region" />
                 </div>
-            </div>
 
+            </div>
             <div class="sm:col-span-2">
                 <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Your message</label>
                 <textarea id="message" rows="6"
-                    class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:border-blue-500"
+                    class="block p-2.5 resize-none w-full text-sm text-gray-900 rounded-lg shadow-sm border border-gray-300 focus:border-blue-500"
                     placeholder="Leave a comment..."></textarea>
             </div>
-            <div class="flex items-center justify-center">
+            <div class="flex items-center justify-center py-4">
                 <button type="submit"
-                    class="ml-3 inline-block rounded-full bg-blue-500 px-5 py-3 text-sm font-medium text-white">
+                    class="inline-block rounded-full bg-blue-500 px-5 py-3 text-sm font-medium text-white">
                     Submit
                 </button>
             </div>

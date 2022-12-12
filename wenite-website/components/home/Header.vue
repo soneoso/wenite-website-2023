@@ -12,6 +12,7 @@
             <nuxt-link to="https://app.wenite.io/login">
                 <button type="button" class="header-btn-book"
                     >Get started free
+                    <Icon name="system-uicons:arrow-right" class="-mt-1" size="28" />
                 </button>
             </nuxt-link>
         </div>
