@@ -26,13 +26,13 @@ html {
     }
 
     .nav-btn-start-free {
-        @apply block mt-4 w-auto h-auto transform rounded-full border-2 bg-blue-500 text-white px-5 py-3 text-center text-xl duration-300 hover:bg-blue-400 lg:mt-0 lg:w-auto lg:h-auto;
+        @apply block mt-4 w-auto h-auto transform rounded-full border-2 bg-[#3789F1] text-white px-5 py-3 text-center text-xl duration-300 hover:bg-blue-400 lg:mt-0 lg:w-auto lg:h-auto;
     }
 
 
     /* Header */
 
     .header-btn-book {
-        @apply m-1 font-medium   transform rounded-full bg-blue-500 px-5 py-3 text-xl mt-8 text-white transition-colors duration-300 hover:bg-blue-400 focus:bg-blue-400;
+        @apply m-1 font-medium   transform rounded-full bg-[#3789F1] px-5 py-3 text-xl mt-8 text-white transition-colors duration-300 hover:bg-blue-400 focus:bg-blue-400;
     }
 }
