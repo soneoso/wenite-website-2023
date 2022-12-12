@@ -24,7 +24,13 @@
         class="absolute inset-x-0 z-20 w-full bg-white px-6 py-4 shadow-md transition-all duration-300 ease-in-out dark:bg-white lg:relative lg:top-0 lg:mt-0 lg:flex lg:w-auto lg:translate-x-0 lg:items-center rounded-b-3xl lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent">
         <ul class="flex flex-col lg:space-x-28 lg:flex-row">
           <div class="flex items-center flex-col justify-center space-y-4 lg:mt-0 lg:flex-row lg:space-y-0">
-            <li><nuxt-link class="navbtn" to="/features">Features</nuxt-link></li>
+<div>
+              <button class="navbtn peer px-5 py-2 ">Product</button>
+              <div id="tooltips" class="hidden peer-hover:flex  hover:flex w-[200px]flex-row  bg-white drop-shadow-lg absolute rounded-full  ">
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/">Dash Board</nuxt-link>
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/">Web App</nuxt-link>
+              </div>
+              </div>
             <li><nuxt-link class="navbtn" to="/pricing">Pricing</nuxt-link></li>
             <li><nuxt-link class="navbtn" to="/about">About</nuxt-link></li>
             <div>
