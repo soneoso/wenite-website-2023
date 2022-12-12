@@ -27,8 +27,8 @@
 <div>
               <button class="navbtn peer px-5 py-2 ">Product</button>
               <div id="tooltips" class="hidden peer-hover:flex  hover:flex w-[200px]flex-row  bg-white drop-shadow-lg absolute rounded-full  ">
-                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/">Dash Board</nuxt-link>
-                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/">Web App</nuxt-link>
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/Dashboard">Dash Board</nuxt-link>
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/WebApp">Web App</nuxt-link>
               </div>
               </div>
             <li><nuxt-link class="navbtn" to="/pricing">Pricing</nuxt-link></li>
@@ -36,8 +36,8 @@
             <div>
               <button class="navbtn peer px-5 py-2 ">Solutions</button>
               <div id="tooltips" class="hidden peer-hover:flex  hover:flex w-[200px]flex-row  bg-white drop-shadow-lg absolute rounded-full  ">
-                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/">Essential</nuxt-link>
-                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/">Premium</nuxt-link>
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/HrTeam">Hr Team</nuxt-link>
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/HrConsultens">Hr Consultens</nuxt-link>
               </div>
             </div>
             <li><nuxt-link class="navbtn" to="/contact">Contact</nuxt-link></li>
