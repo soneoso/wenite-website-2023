@@ -8,15 +8,33 @@
                 Wenite starts where traditional pulse surveying tools stop. Our AI-driven approach to collecting data
                 from employees reduces survey load and optimizes data quality.
             </p>
+            <nuxt-link to="https://app.wenite.io/login">
+                <button type="button" class="header-book-demo">Get started free
+                    <Icon name="system-uicons:arrow-right" class="-mt-1" size="28" />
+                </button>
+                <button type="button" class="header-btn-book">Learn more
+                    <Icon name="system-uicons:arrow-right" class="-mt-1" size="28" />
+                </button>
+            </nuxt-link>
+        </div>
+        <div class="flex pt-8 pr-24 justify-end text-black">
+            <Icon name="cil:arrow-right" size="100" />
+        </div>
+        <div class="border-2 rounded-full shadow-2xl">
+            <div class="py-16">
+                <div class="h-96 w-96">
+                    <ChartsFeatureChart1 />
+                </div>
+            </div>
         </div>
     </div>
+
+
 
 </template>
 
 <script>
-export default {
 
-}
 </script>
 
 <style lang="scss" scoped>

@@ -15,6 +15,7 @@
                     beautiful Consent Management Platform.</h1>
             </div>
         </div>
+        
         <HomeJoin />
     </div>
 </template>
