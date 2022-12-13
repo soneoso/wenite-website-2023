@@ -63,7 +63,7 @@
                 </div>
                 <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-3xl shadow-md hover:bg-blue-100 dark:hover:bg-blue-100">
                 <a href="#" class="flex items-center lg:justify-center">
-                    <img src="~/assets/images/xerius-logo.png" class="h-12 hover:text-gray-900 dark:hover:text-white" viewBox="0 0 124 21" fill="currentColor">
+                    <img src="~/assets/images/Immobel1.png">
                 </a>
                 </div>
             </div>

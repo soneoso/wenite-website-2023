@@ -1,10 +1,12 @@
 <template>
 <main class="">
     <HomeHeader />
-    <HomeProductPlacement />
-    <HomePartners />
-    <HomeFeatures />
-    <HomeTestimonials />
+    <HomePartnersTest />
+    <HomeExplanation />
+    <!-- <HomeProductPlacement /> -->
+    <!-- <HomePartners /> -->
+    <!-- <HomeFeatures />
+    <HomeTestimonials /> -->
     <HomeJoin />
 </main>
 </template>

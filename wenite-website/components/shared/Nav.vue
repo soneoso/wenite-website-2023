@@ -27,7 +27,7 @@
 <div>
               <button class="navbtn peer px-5 py-2 ">Product</button>
               <div id="tooltips" class="hidden peer-hover:flex  hover:flex w-[200px]flex-row  bg-white drop-shadow-lg absolute rounded-full  ">
-                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/Dashboard">Dash Board</nuxt-link>
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/Dashboard">Dashboard</nuxt-link>
                 <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/WebApp">Web App</nuxt-link>
               </div>
               </div>
