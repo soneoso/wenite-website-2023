@@ -1,14 +1,10 @@
 <template>
-    <PricingHeader />
-    <PricingPlanSwitch />
-    <PricingCollection />
-    <HomeJoin />
+  <PricingHeader />
+  <!-- <PricingPlanSwitch /> -->
+  <PricingCollection />
+  <HomeJoin />
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>
