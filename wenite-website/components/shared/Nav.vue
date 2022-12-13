@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-8 z-40 px-8">
+  <header class="sticky top-8 z-40 px-8 ">
     <nav
       class="container m-8 mx-auto border-[1px] rounded-full bg-white drop-shadow p-4 lg:flex lg:items-center lg:justify-between max-w-7xl flex-wrap">
       <div class="flex items-center justify-between">
@@ -20,7 +20,7 @@
         </div>
       </div>
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-      <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']"
+      <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full']"
         class="absolute inset-x-0 z-20 w-full bg-white px-6 py-4 shadow-md transition-all duration-300 ease-in-out dark:bg-white lg:relative lg:top-0 lg:mt-0 lg:flex lg:w-auto lg:translate-x-0 lg:items-center rounded-b-3xl lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent">
         <ul class="flex flex-col lg:space-x-28 lg:flex-row">
           <div class="flex items-center flex-col justify-center space-y-4 lg:mt-0 lg:flex-row lg:space-y-0">

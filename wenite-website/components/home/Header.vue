@@ -5,7 +5,7 @@
                 <h1 class="opacity-100 drop-shadow-sm shadow-black text-3xl font-semibold  md:text-9xl">
                     A personalized approach to employee experience
                 </h1>
-                <p class="mt-6 max-w-3xl text-gray-500 dark:text-gray-600 md:text-2xl">
+                <p class="mt-6 max-w-3xl text-gray-500 dark:text-gray-600 md:text-3xl">
                     Wenite delivers an incredibly personalized employee experience using AI technologies — your
                     data-driven hub activates employee sentiments and helps you build tailored experiences.
                 </p>
