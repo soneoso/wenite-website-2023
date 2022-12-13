@@ -35,4 +35,8 @@ html {
     .header-btn-book {
         @apply m-1 font-medium   transform rounded-full bg-[#3789F1] px-5 py-3 text-xl mt-8 text-white transition-colors duration-300 hover:bg-blue-400 focus:bg-blue-400;
     }
+
+                .header-book-demo {
+                    @apply m-1 font-medium transform rounded-full bg-white px-5 py-3 text-xl mt-8 border-2 transition-colors duration-300 hover:bg-blue-500 focus:bg-blue-400 dark:hover:text-white;
+                }
 }
