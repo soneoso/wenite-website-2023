@@ -1,17 +1,11 @@
 <template>
     <div class="bg-gradient-to-r from-zinc-800 to-zinc-900">
         <div class="container mx-auto px-6 py-24 flex text-center justify-center items-center">
-            <div class="max-w-4xl">
+            <div class="max-w-4xl mx-auto justify-center items-center">
                 <h2 class="opacity-100 drop-shadow-sm shadow-black text-3xl text-white font-semibold  md:text-7xl">
                 +100 clients personalize their employee experience using Wenite
                 </h2>
-
-
             </div>
-            <div class="mx-auto justify-center pt-32 items-center rounded-full">
-
-            </div>
-            
         </div>
         <div class="grid lg:grid-cols-5 md:grid-cols-3 gap-16 px-36 py-16">
         <img src="~/assets/images/immobel-white-logo.png" class="">
