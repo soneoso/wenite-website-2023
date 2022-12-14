@@ -57,12 +57,14 @@
 
 <style>
 .card {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .effect:hover .card {
-  filter: blur(3px);
+  filter: blur(1px);
+  opacity: 0.2;
 }
 .effect .card:hover {
   filter: blur(0);
+  opacity: 1;
 }
 </style>
