@@ -1,7 +1,7 @@
 <template>
   <header class="sticky top-8 z-40 px-8 ">
     <nav
-      class="container m-8 mx-auto border-[1px] rounded-full bg-white drop-shadow p-4 lg:flex lg:items-center lg:justify-between max-w-7xl flex-wrap">
+      class="container m-8 mx-auto border-[1px] rounded-full bg-white drop-shadow p-4 lg:flex lg:items-center lg:justify-between max-w-8xl flex-wrap">
       <div class="flex items-center justify-between">
         <div>
           <nuxt-link class="text-2xl pl-3 font-semibold lg:text-3xl"
@@ -22,13 +22,13 @@
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full']"
         class="absolute inset-x-0 z-20 w-full bg-white px-6 py-4 shadow-md transition-all duration-300 ease-in-out dark:bg-white lg:relative lg:top-0 lg:mt-0 lg:flex lg:w-auto lg:translate-x-0 lg:items-center rounded-b-3xl lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:dark:bg-transparent">
-        <ul class="flex flex-col lg:space-x-28 lg:flex-row">
-          <div class="flex items-center flex-col justify-center space-y-4 lg:mt-0 lg:flex-row lg:space-y-0">
-<div>
-              <button class="navbtn peer px-5 py-2 ">Product</button>
+        <ul class="flex flex-col lg:flex-row lg:flex">
+          <div class="flex flex-col items-center justify-center lg:mt-0 lg:flex-row">
+            <div>
+              <button class="navbtn peer px-5 py-2">Product</button>
               <div id="tooltips" class="hidden peer-hover:flex  hover:flex w-[200px]flex-row  bg-white drop-shadow-lg absolute rounded-full  ">
-                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/Dashboard">Dashboard</nuxt-link>
-                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/WebApp">Web App</nuxt-link>
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/products/InsightPortal">Insight Portal</nuxt-link>
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/products/EmployeeHub">Employee Hub</nuxt-link>
               </div>
               </div>
             <li><nuxt-link class="navbtn" to="/pricing">Pricing</nuxt-link></li>
@@ -36,8 +36,8 @@
             <div>
               <button class="navbtn peer px-5 py-2 ">Solutions</button>
               <div id="tooltips" class="hidden peer-hover:flex  hover:flex w-[200px]flex-row  bg-white drop-shadow-lg absolute rounded-full  ">
-                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/HrTeam">Hr Team</nuxt-link>
-                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/HrConsultens">Hr Consultens</nuxt-link>
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/solutions/HrTeam">HR Team</nuxt-link>
+                <nuxt-link class="transition delay-50 duration-50 px-5 py-3 hover:bg-gray-200 rounded-full" to="/solutions/HrConsultens">HR Consultens</nuxt-link>
               </div>
             </div>
             <li><nuxt-link class="navbtn" to="/contact">Contact</nuxt-link></li>
@@ -88,8 +88,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<!-- <style scoped>
 .router-link-exact-active {
   
 }
-</style>
+</style> -->

@@ -7,12 +7,13 @@
                 </h2>
             </div>
         </div>
-        <div class="grid lg:grid-cols-5 md:grid-cols-3 gap-16 px-36 py-16">
-        <img src="~/assets/images/immobel-white-logo.png" class="">
+        <div class="flex justify-center lg:grid-cols-5 md:grid-cols-3 gap-16 px-36 py-16 mx-auto">
+            <img src="~/assets/images/Group 1.png" class="max-w-7xl" alt="">
+        <!-- <img src="~/assets/images/immobel-white-logo.png" class="">
         <img src="~/assets/images/bdo-white-logo.png" class="pt-24 pl-8">
         <img src="~/assets/images/sportoase-white-logo.png" class="pt-16 pr-16">
         <img src="~/assets/images/bp-white-logo.png" class="pt-14">
-        <img src="~/assets/images/fiberklaar-white-logo.png" class="pt-16">
+        <img src="~/assets/images/fiberklaar-white-logo.png" class="pt-16"> -->
         </div>
 </div>
 </template>
