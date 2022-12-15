@@ -3,7 +3,7 @@
         <div class="container h-screen mx-auto px-6 py-48 flex bg-white">
             <div class=" max-w-4xl">
                 <h1 class="opacity-100 drop-shadow-sm shadow-black text-3xl font-semibold  md:text-9xl">
-                    Insight Portal
+                    Employee Hub
                 </h1>
                 <p class="mt-6 max-w-3xl text-gray-500 dark:text-gray-600 md:text-3xl">
                     Wenite provides the data and tools to put employee wellbeing at the heart of your organization.

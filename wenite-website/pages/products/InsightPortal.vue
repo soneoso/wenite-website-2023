@@ -18,24 +18,47 @@
                     </button>
                 </nuxt-link>
             </div>
-<div class="flex mx-auto ">
 
-                <div class="border grid place-items-center rounded-full shadow-2xl bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 " style="height: 500px; width: 500px; font-size: 170px" >
-                    <h1 class="text-3xl font-semibold"></h1>
-                    <!-- <div class="mt-4 mb-10 "> -->
-                    <!-- <p class="text-gray-600">Visit our Employee support page if your company is using our product or
-                        service </p> -->
-                    <!-- </div> -->
-                    <!-- <div class="flex pt-8 justify-end">
-                    <Icon name="mdi:arrow-right-thin" size="50" />
-                </div> -->
+            <div class="flex mx-auto">
+                <div class="border grid place-items-center rounded-full shadow-2xl bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 "
+                    style="height: 600px; width: 600px; font-size: 170px">
                 </div>
-
-
+                <div class="absolute grid grid-cols-3 gap-8">
+                <ul class="">
+                    <div class="">
+                        <li class="col-span-2">
+                            <img src="~/assets/images/healthtrianglepill.svg" alt="">
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <img src="~/assets/images/offerspill.svg" alt="">
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <img src="~/assets/images/Recommendationspill.svg" alt="">
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <img src="~/assets/images/virtualcoachpill.svg" alt="">
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <img src="~/assets/images/wellbeingpill.svg" alt="">
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <img src="~/assets/images/pointsystempill.svg" alt="">
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            </div>
         </div>
-
-        </div>
-
     </header>
 </template>
 

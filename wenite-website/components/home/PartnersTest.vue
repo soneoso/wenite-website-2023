@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="flex justify-center lg:grid-cols-5 md:grid-cols-3 gap-16 px-36 py-16 mx-auto">
-            <img src="~/assets/images/Group 1.png" class="max-w-7xl" alt="">
+            <img src="~/assets/images/Group2.png" class="max-w-7xl" alt="">
         <!-- <img src="~/assets/images/immobel-white-logo.png" class="">
         <img src="~/assets/images/bdo-white-logo.png" class="pt-24 pl-8">
         <img src="~/assets/images/sportoase-white-logo.png" class="pt-16 pr-16">
